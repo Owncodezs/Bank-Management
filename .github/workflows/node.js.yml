@@ -3,7 +3,7 @@ name: Bank-Client
 on:
   push:
     branches:
-      - main
+      - gh-client
 jobs:
   build:
     name: Build
