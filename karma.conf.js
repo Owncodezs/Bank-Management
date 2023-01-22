@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/gate-pass-new'),
+      dir: require('path').join(__dirname, './coverage/mainframe'),
       subdir: '.',
       reporters: [
         { type: 'html' },
